@@ -8,6 +8,8 @@ public class PlayerManager : MonoBehaviour {
     private const float MOVESPEED = 3;
     private float moveSpeed;
 
+    public LayerMask blocklayer;
+
     public enum MOVE_DIR
     {
         STOP,
